@@ -94,7 +94,7 @@ txId, err := client.Offer(txInfo)
 You can also sign the raw transaction by yourself and send with the `SendTx` api:
 
 ```go
-txInfo := &OfferTxInfo{
+    txInfo := &OfferTxInfo{
     Type:         int64(offerType),
     OfferId:      offerId,
     AccountIndex: accountIndex,
